@@ -1,0 +1,5 @@
+.generalContainer {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 22vw 78vw;
+}

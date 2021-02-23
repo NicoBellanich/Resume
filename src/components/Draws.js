@@ -1,0 +1,23 @@
+import React from "react";
+import classes from "./Draws.module.css";
+const Draws = (props) => {
+  return (
+    <svg
+      className={classes.img}
+      viewBox="0 0 443 84"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g id="DibujosSuperiores">
+        <path id="Marron" d="M0.5 0.5L444 82V0.5H0.5Z" fill="#D0826F" />
+        <path
+          id="Azul"
+          d="M0.973145 0L2.02134e-05 82.4943L97.1087 18.1352L0.973145 0Z"
+          fill="#3B4358"
+        />
+      </g>
+    </svg>
+  );
+};
+
+export { Draws };

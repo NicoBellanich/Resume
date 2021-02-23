@@ -1,0 +1,46 @@
+.container {
+  background-color: white;
+  padding: 20vh 5vw 0vw 5vw;
+}
+
+.container p {
+  color: #263547;
+  margin: 0.5%;
+  width: max-content;
+  min-width: 17vw;
+}
+
+.container p:hover {
+  transform: scale(1.05) translateX(3vw);
+  transition: 1s;
+}
+
+.container .icons {
+  margin-right: 1%;
+  color: #263547;
+}
+
+.container a {
+  color: #263547;
+  text-decoration: none;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #d0826f;
+  max-width: 25%;
+}
+
+.tituloSeccion {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #d0826f;
+  max-width: 25%;
+}
+
+.subtitulo {
+  font-weight: 300;
+  color: #d0826f;
+  max-width: 25%;
+}
