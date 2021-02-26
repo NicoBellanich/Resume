@@ -3,16 +3,16 @@
   padding: 20vh 5vw 0vw 5vw;
 }
 
-.container p {
+.zoomingText {
   color: #263547;
   margin: 0.5%;
   width: max-content;
   min-width: 17vw;
 }
 
-.container p:hover {
-  transform: scale(1.05) translateX(3vw);
-  transition: 1s;
+.zoomingText:hover {
+  transform: scale(1.05) translateX(1vw);
+  transition: 0.5s;
 }
 
 .container .icons {
