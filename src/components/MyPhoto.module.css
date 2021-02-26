@@ -1,0 +1,12 @@
+.image {
+  width: 13vw;
+  height: auto;
+  z-index: 4;
+  border-radius: 10%;
+}
+
+@media screen and (max-width: 699px) {
+  .image {
+    width: 18vw;
+  }
+}

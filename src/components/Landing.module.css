@@ -3,3 +3,11 @@
   display: grid;
   grid-template-columns: 22vw 78vw;
 }
+
+
+@media screen and (max-width: 699px){
+  .generalContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}

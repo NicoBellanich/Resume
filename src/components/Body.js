@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Body.module.css";
 import { HiMail as EmailIcon, HiChat as ChatIcon } from "react-icons/hi";
 import { AiFillLinkedin as LinkedinIcon } from "react-icons/ai";
@@ -13,6 +13,11 @@ import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 const Body = () => {
+
+  useEffect(()=>{
+    console.log("WW",window.innerWidth)
+  },[])
+
   return (
     <div className={classes.container}>
       <div>
@@ -35,7 +40,7 @@ const Body = () => {
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/nicolasdariobellanich70491/"
           >
-            My profile
+            My profile 
           </a>
         </p>
         <p className={classes.zoomingText}>
@@ -45,7 +50,7 @@ const Body = () => {
             rel="noopener noreferrer"
             href="https:/github.com/NicoBellanich"
           >
-            My git
+            My portfolio 
           </a>
         </p>
       </div>

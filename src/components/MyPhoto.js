@@ -1,10 +1,10 @@
 import React from "react";
 import image from "../Img/MiFoto.jpg";
-
+import classes from "./MyPhoto.module.css"
 const MyPhoto = () => {
   return (
     <img
-      style={{ width: "13vw", height: "36vh", zIndex: "4", borderRadius:"10%" }}
+      className={classes.image}
       src={image}
     ></img>
   );

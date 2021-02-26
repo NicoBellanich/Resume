@@ -29,7 +29,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: #d0826f;
-  max-width: 25%;
+  max-width: 50%;
 }
 
 .tituloSeccion {
@@ -43,4 +43,26 @@
   font-weight: 300;
   color: #d0826f;
   max-width: 25%;
+}
+
+
+@media screen and (max-width: 699px){
+  .container{
+    padding: 5vh 5vw 0vw 5vw;
+  }
+  .titulo{
+    max-width: 100%;
+  }
+  .subtitulo{
+    max-width: 100%;
+  }
+  .tituloSeccion{
+    max-width: 100%;
+  }
+  .zoomingText{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 }
