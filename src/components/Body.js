@@ -48,7 +48,7 @@ const Body = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https:/github.com/NicoBellanich"
+            href="https://www.github.com/NicoBellanich"
           >
             My portfolio 
           </a>
