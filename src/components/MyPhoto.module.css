@@ -1,5 +1,5 @@
 .image {
-  width: 90%;
+  width: 12em;
   height: auto;
   z-index: 4;
   border-radius: 10%;
@@ -7,7 +7,6 @@
 
 @media screen and (max-width: 699px) {
   .image {
-    width: 74px;
-    height: 98px;
+    width: 8em;
   }
 }
