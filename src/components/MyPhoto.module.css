@@ -8,6 +8,12 @@
 
 @media screen and (max-width: 699px) {
   .image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .image {
     width: 70%;
   }
 }
