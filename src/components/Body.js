@@ -21,7 +21,7 @@ const Body = () => {
   return (
     <div className={classes.container}>
       <div>
-        <h1 className={classes.titulo}>Bellanich Nicolas Darío</h1>
+        <h1 className={classes.titulo}>Bellanich Nicolas</h1>
         <h2 className={classes.subtitulo}> Software Engineer</h2>
       </div>
       <div>
