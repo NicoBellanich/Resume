@@ -24,7 +24,7 @@ const Body = () => {
         <h1 className={classes.titulo}>Bellanich Nicolas</h1>
         <h2 className={classes.subtitulo}> Software Engineer</h2>
       </div>
-      <div>
+      <div className={classes.sectionContaier}>
         <h3 className={classes.tituloSeccion}>Contact and networks</h3>
         <p className={classes.zoomingText}>
           <EmailIcon className={classes.icons} /> nicolasbellanich@gmail.com
@@ -54,10 +54,10 @@ const Body = () => {
           </a>
         </p>
       </div>
-      <div>
+      <div className={classes.sectionContaier}>
         <h3 className={classes.tituloSeccion}>Job experience</h3>
-        <Accordion>
-          <AccordionSummary>
+        <Accordion className={classes.acordion} >
+          <AccordionSummary className={classes.acordionHeader}>
             <p>» Full stack developer </p>
           </AccordionSummary>
           <AccordionDetails>
@@ -77,8 +77,8 @@ const Body = () => {
             </p>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
-          <AccordionSummary>
+        <Accordion  className={classes.acordion}>
+          <AccordionSummary className={classes.acordionHeader}>
             <p>» Full stack developer </p>
           </AccordionSummary>
           <AccordionDetails>
@@ -98,8 +98,8 @@ const Body = () => {
             </p>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
-          <AccordionSummary>
+        <Accordion  className={classes.acordion}>
+          <AccordionSummary className={classes.acordionHeader}>
             <p>» Full stack trainee program </p>
           </AccordionSummary>
           <AccordionDetails>
@@ -122,8 +122,8 @@ const Body = () => {
             </p>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
-          <AccordionSummary>
+        <Accordion  className={classes.acordion}>
+          <AccordionSummary className={classes.acordionHeader}>
             <p>» Python scrapping  </p>
           </AccordionSummary>
           <AccordionDetails>
@@ -146,7 +146,7 @@ const Body = () => {
           </AccordionDetails>
         </Accordion>
       </div>
-      <div>
+      <div className={classes.sectionContaier}>
         <h3 className={classes.tituloSeccion}>Education & courses</h3>
         <p>
           <div>

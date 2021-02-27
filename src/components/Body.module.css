@@ -25,6 +25,10 @@
   text-decoration: none;
 }
 
+.sectionContaier{
+  margin: 5vh 0 5vh 0;
+}
+
 .titulo {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -37,12 +41,21 @@
   font-weight: 700;
   color: #d0826f;
   max-width: 25%;
+  margin-top: 2vh;
 }
 
 .subtitulo {
   font-weight: 300;
   color: #d0826f;
   max-width: 25%;
+}
+
+.acordion{
+  width: 90%;
+}
+
+.acordionHeader{
+  height: 8vh;
 }
 
 
